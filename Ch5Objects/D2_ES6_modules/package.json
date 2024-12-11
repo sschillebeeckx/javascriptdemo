@@ -1,0 +1,7 @@
+{
+  "name": "D2_ES6_modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module"
+}

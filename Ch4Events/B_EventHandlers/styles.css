@@ -1,0 +1,14 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#message {
+    font-size: 20px;
+    color: blue;
+}
+
+#inputBox {
+    margin: 10px 0;
+}

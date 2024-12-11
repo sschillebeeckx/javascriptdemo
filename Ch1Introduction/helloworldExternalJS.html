@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Hello</title>
+    <script src="helloworld.js"></script>
+</head>
+<body>
+    <h1 id="results" style="display:block">some text</h1>
+   <script>
+       let a = 5;
+       if (a>3) {
+          document.getElementById("results").innerHTML = doSomething(a);
+       } else {
+           let myh1=  document.getElementById("results");
+            myh1.innerHTML = "error occurred";
+            myh1.style.color = "red";
+
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header h2 {
+    margin: 10px 0 0;
+    font-size: 24px;
+}
+
+main {
+    margin: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px;line-height: 1.6;margin: 15px 0;
+}
+
+strong {
+    font-weight: bold;color: #d32f2f;
+}
+
+em {font-style: italic;color: #1976d2;}
+
+/* Unordered List with square bullets */
+ul {list-style-type: square;margin-left: 20px;padding: 0;
+}
+
+ul li {font-size: 16px;margin: 10px 0;
+}
+
+/* Class selector example */
+.programming-languages {
+    background-color: #e8f5e9; /* Light green background for the list */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.programming-languages li {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+/* Table styles */
+table {width: 100%;border-collapse: collapse;margin: 20px 0;
+}
+
+/* ID selector example */
+#sample-table {
+    border: 2px solid #4CAF50; /* Green border for the table */
+    margin-top: 20px;
+}
+
+th, td {padding: 10px;text-align: left;border-bottom: 1px solid #ddd;}
+
+th {background-color: #f2f2f2;font-size: 18px;}
+
+td {
+    background-color: #ffffff;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
