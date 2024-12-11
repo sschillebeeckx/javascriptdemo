@@ -1,0 +1,38 @@
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-left: 10px;
+    display: inline-block; /* Makes the error message appear next to the input */
+}
+
+#error {
+    font-size: 0.8em;
+    color: red;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "DB2b_PopulationMenuClass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "populatemenu.js",
+  "type": "module"
+}

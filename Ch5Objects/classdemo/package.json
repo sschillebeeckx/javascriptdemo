@@ -1,0 +1,7 @@
+{
+  "name": "classdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "course.js",
+  "type": "module"
+}

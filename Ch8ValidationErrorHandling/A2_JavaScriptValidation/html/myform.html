@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Example</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<form id="myForm">
+    <table>
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td>
+                <input type="text" id="name" name="name"/>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+                <input type="email" id="email" name="email" required
+                       title="Please enter a valid email address."/>
+                <span id="emailTooltip" class="error"></span> <!-- This is where the email error will appear -->
+            </td>
+        </tr>
+        <tr>
+            <td><label for="pwd">Password:</label></td>
+            <td>
+                <input type="password" id="pwd" name="pwd" required minlength="8" maxlength="20"
+                       title="Password must be between 8 and 20 characters long."/>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="age">Age:</label></td>
+            <td>
+                <input type="number" id="age" name="age" required min="1" max="150"
+                       title="Age must be a number between 1 and 150."/>
+                <span id="ageError" class="error"></span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit" id="submitBtn">Submit</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p id="formMessage" class="error"></p>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<script src="../js/myform.js"></script>
+</body>
+</html>
